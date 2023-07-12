@@ -1,33 +1,40 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: #1C1C1C;
+    color: #FCFCFC;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tokenBox {
+    font-weight: bolder;
+    font-size: 30px;
+    margin: auto;
+    padding: 30px;
+    overflow: hidden;
+    border-radius: 30px;
+    max-width: 90%;
+    max-height: 90%;
+    word-wrap: break-all;
 }
 
 .content {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transition: 0.3s;
 }
 
-.content > div {
-    margin: 30px;
-    width: 80%;
-    overflow: scroll;
+.tokenBox:hover {
+    background-color: #413b3b;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
-.copy {
-    background-color: cadetblue;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 30px;
-    border-radius: 100%;
+.info {
     position: fixed;
     bottom: 20px;
     right: 20px;
-}
-
-.copy:hover{
-    transition: 0.3s;
-    opacity: 0.5;
-    cursor: pointer;
+    font-weight: bold;
 }
