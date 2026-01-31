@@ -3,7 +3,7 @@ Simple auth token generator using Firebase email/password Authentication
 
 ## Before starting
 
-Set up configuration data in a `config.json` file at root directory.
+Set up configuration data in a `config.js` file at root directory.
 ```
 export const firebaseConfig = {
     apiKey: "...",
